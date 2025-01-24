@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sing Up Page</title>   
+</head>
+<style>
+body {
+
+    background-color: #dfcb96;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    text-align: center;
+}
+form {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    width: 340px;
+
+}
+label {
+    font-size: 14px;
+    text-align: center;
+    display: block;
+    margin-bottom: 5px;
+}
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    box-sizing: border-box;
+    text-align: center;
+}
+button {
+    width: 100%;
+    padding: 12px;
+    background: linear-gradient(to bottom, #f5deb3, #8b4513);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+a {
+    color:#57340b;
+}
+
+</style>
+
+<body>
+    
+<form>
+    <h1>Welcome </h1>
+   <h3>Sing Up</h3>
+    <label for="emile">Email</label>
+    <input type="emile" id="emile" name="emile" required>
+    <label for="Username">Username</label>
+    <input type="text" id="Username" name="Username" required>
+    <label for="password">Password</label>
+    <input type="password" id="password" name="password" required>
+    <button type="submit" name="submit" id="submit">Sing Up</button>
+    <p>Have an account? <a href ="LogIn.html">Log in</a></p>
+</form>
+</body>
+</html>
